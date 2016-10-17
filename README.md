@@ -3,10 +3,17 @@
 http://exercises.how2js.com
 
 JavaScript Exercises is a codecamp project that is designed to make it easy for new developers to practice the basics of
-the JavaScript Language. The initial round of these exercises were pulled from w3resources.com, which is licensed under Creative 
+the JavaScript Language. The initial round of these exercises were pulled from w3resources.com, which is licensed under Creative
 Commons Share-Alike License.
 
 http://www.w3resource.com/
+
+## How to run in development mode
+
+```
+npm install
+npm start
+```
 
 ## How to Practice
 
