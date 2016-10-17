@@ -350,4 +350,10 @@ console.log(rangeBetween(-4, 7));
 
 <div class="tonic"></div>
 
+### 42. Write a JavaScript function that takes two arguments a function and an array, then when called it loop through
+each items in the array and returns a new array of the results as it applies the function param to each item.
+
+<div class="tonic"></div>
+
+
 [Index](/)
