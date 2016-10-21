@@ -11,6 +11,7 @@
   "author": "Tom",
   "license": "ISC",
   "dependencies": {
-    "codecampkit": "^2.4.1"
+    "cck": "^1.0.11",
+    "codecampkit": "^2.4.2"
   }
 }
