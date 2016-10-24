@@ -205,5 +205,82 @@ const student = {
 </pre>
 </div>  
 
+### 14. Write the Ramda reduce function to sum a list of numbers
+
+<div class="tonic">
+<pre>
+const R = require('ramda')
+
+const nums = [1,2,3,5,6,8,10,20]
+
+</pre>
+</div>  
+
+
+### 15. Use filter to only show the buzzwords that contain the letter `g`
+
+<div class="tonic">
+<pre>
+const R = require('ramda')
+const buzzwords = require('buzzwords')
+
+</pre>
+</div>  
+
+
+### 16. Use filter to only show the buzzwords that contain the letter `g`
+and map to convert them to a unOrdered list
+
+<div class="tonic">
+<pre>
+const R = require('ramda')
+const buzzwords = require('buzzwords')
+const h = require('hyperscript')
+
+</pre>
+</div>  
+
+
+### 17. Create a basic markdownish parser using all ramda functions
+
+<div class="tonic">
+<pre>
+const R = require('ramda')
+const h = require('hyperscript')
+
+const md = \`
+# header 1
+
+## header 2
+
+Paragraph
+
+* item 1
+* item 2
+* item 3
+
+\`
+
+</pre>
+</div>
+
+
+---
+
+WIP
+
+* map
+* filter
+* reduce
+
+* curry
+* compose
+
+* head and tail
+* path and prop
+* set lensPath, lensProp
+* sort
+* take
+
 
 [Index](/)
