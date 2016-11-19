@@ -17,3 +17,4 @@ This is a practice tutorial, follow it step by step to create a basic react appl
 * [Step 5](5)
 * [Step 6](6)
 * [Step 7](7)
+* [Step 8](8)
