@@ -29,5 +29,5 @@ practice small exercises and projects to comfortable with the language.
 * [*Reduce](reduce/)
 * [Ramda - WIP](ramda/)
 * [NodeJS - WIP](nodejs/)
-* [*React](react/)
+* [React](react/)
 * [*Redux](redux/)
