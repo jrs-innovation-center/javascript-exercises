@@ -123,6 +123,7 @@ echo node_modules > .gitignore
 > Commit and setup a remote repository
 
 ```
+git init
 git add .
 git commit -am "setup step"
 git remote add origin [repo]

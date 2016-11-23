@@ -18,3 +18,5 @@ This is a practice tutorial, follow it step by step to create a basic react appl
 * [Step 6](6)
 * [Step 7](7)
 * [Step 8](8)
+
+* [Persons Team Exercise](persons-team.md)
