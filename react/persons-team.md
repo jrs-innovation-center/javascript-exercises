@@ -272,5 +272,6 @@ You just need to set the state of the effort.members
 ```
 let effort = {...this.state.effort}
 // do your add or remove
+effort.members = [member, ...effort.members.filter(...)]
 this.setState({effort})
 ```
