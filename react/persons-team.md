@@ -275,3 +275,20 @@ let effort = {...this.state.effort}
 effort.members = [member, ...effort.members.filter(...)]
 this.setState({effort})
 ```
+
+
+### Step 6
+
+* create an `update team` button
+* updateTeam method
+
+
+```
+updateTeam (e) {
+  e.preventDefault()
+  this.props.put('efforts', this.state.effort, (err, result) {
+    if (err) console.log(err.message)
+    this.setState({team: 'updated!'})
+  })
+}
+```
