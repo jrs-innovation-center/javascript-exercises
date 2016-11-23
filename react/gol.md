@@ -3,6 +3,10 @@
 In this exercise you will use the game of life engine
 to build a react game of life simulation.
 
+## Demo
+
+http://gol-react.surge.sh
+
 ## Setup
 
 ```
@@ -116,6 +120,11 @@ Add two nodes:
 
 ## Step 3
 
+> remember map, also think about using two maps,
+one to map over the board and one to map over each
+row. You will need the index of each row and col
+to toggle the cell.
+
 * Add the ability to render the board, it will
 be an array of rows and an array of columns in
 each row.
@@ -125,15 +134,29 @@ each row.
 * when the component mounts create the gol sim and
 add the sim to the state, so you can handle the start and stop buttons
 
+> When you create your sim, you can set the state, also
+you can subscribe to the tick and set state every time
+the new board is rendered.
+
 ## Step 5
 
 * handle start button
+
+> create a method in your component and the associate it
+with a button's onClick event hander
 
 ## Step 6
 
 * handle stop button
 
+> create a method in your component and the associate it
+with a button's onClick event hander
+
+
 ## Step 7
 
 * when stopped and a cell is clicked, toggle the
 state of the cell.
+
+> create a method in your component and the associate it
+with a cell's onClick event hander

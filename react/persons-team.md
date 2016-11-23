@@ -259,3 +259,18 @@ Create Remove Member method
 
 > Integrate functionality into your relief-tracker app
 on the efforts show page.
+
+
+In your show.js component for Efforts you want to
+create two methods
+
+* addMember
+* removeMember
+
+You just need to set the state of the effort.members
+
+```
+let effort = {...this.state.effort}
+// do your add or remove
+this.setState({effort})
+```
