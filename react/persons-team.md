@@ -276,6 +276,17 @@ effort.members = [member, ...effort.members.filter(...)]
 this.setState({effort})
 ```
 
+Also you need to get your persons list from xhr using 
+all docs in the componentDidMount
+
+```
+componentDidMount () {
+  this.props.allDocs('persons', (e,person) => {
+    this.setState({persons})
+  })
+}
+```
+
 
 ### Step 6
 
