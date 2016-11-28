@@ -88,3 +88,5 @@ search('batman', (e,b) => {
 
 </pre>
 </div>
+
+[Index](/)

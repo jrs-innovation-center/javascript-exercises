@@ -26,7 +26,7 @@ practice small exercises and projects to comfortable with the language.
 * [Map](map/)
 * [*Filter](filter/)
 * [*Compose](compose/)
-* [*Reduce](reduce/)
+* [Reduce](reduce/)
 * [Ramda - WIP](ramda/)
 * [NodeJS - WIP](nodejs/)
 * [React](react/)
