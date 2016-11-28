@@ -24,7 +24,7 @@ practice small exercises and projects to comfortable with the language.
 * [DOM](dom/)
 * [Drawing](drawing/)
 * [Map](map/)
-* [*Filter](filter/)
+* [Filter](filter/)
 * [*Compose](compose/)
 * [Reduce](reduce/)
 * [Ramda - WIP](ramda/)
