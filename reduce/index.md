@@ -82,3 +82,5 @@ function find (fn, list) {
 find(v => v === 'waldo', ['Larry', 'Curly', 'Moe', 'Waldo', 'Jim', 'Harry'])
   </pre>
 </div>
+
+[Index](/)
