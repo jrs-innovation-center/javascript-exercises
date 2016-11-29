@@ -52,7 +52,7 @@ function filter (fn, list) {
 }
 
 // filter to even numbers
-filter(v => v % 2, [1,2,3,4,5,6,7,8,9,10])
+filter(v => v % 2 === 0, [1,2,3,4,5,6,7,8,9,10])
   </pre>
 </div>
 
@@ -65,7 +65,7 @@ function reject (fn, list) {
 }
 
 // reject even numbers
-reject(v => v % 2, [1,2,3,4,5,6,7,8,9,10])
+reject(v => v % 2 === 0, [1,2,3,4,5,6,7,8,9,10])
 
   </pre>
 </div>

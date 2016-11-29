@@ -64,20 +64,13 @@ db search into a list of movie posters.
 const h = require('hyperscript')
 
 
-const xhr = require('xhr')
+const request = require('request')
 const search = (query, callback) => {
-  xhr({
+  request({
     method: 'GET',
     json: true,
-    url: 'http://www.omdbapi.com/r=json=q=' + query
-  }, (e,r,b) => {
-    if (e) {
-      console.log(e)
-      callback(e)
-      return
-    }
-    callback(null, b)
-  })
+    url: 'http://www.omdbapi.com/?r=json&s=' + query
+  }, (e,r,b) => callback(e,b))
 }
 
 const img = (url) => h('img', {src: url})
