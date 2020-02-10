@@ -1,3 +1,11 @@
+---
+title: Javascript Exercises - Math
+description: do some math in your js
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
 ## Math Functions
 
 ### 1. Write a JavaScript function to convert a number from one base to another.
@@ -10,7 +18,7 @@
 > "160544"        
 > "10"         
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 2. Write a JavaScript function to convert a binary number to a decimal number.
 
@@ -20,7 +28,7 @@
 > 51     
 > 4    
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 3. Write a JavaScript function to convert a decimal number to binary, hexadecimal or octal number.
 
@@ -32,7 +40,7 @@
 > "78"     
 > "170"     
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 4. Write a JavaScript function to generate a random integer.
 
@@ -46,7 +54,7 @@
 > 1    
 > 0      
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 5. Write a JavaScript function to format a number up to specified decimal places.
 
@@ -58,7 +66,7 @@
 > "2.100"      
 > "2100.00"       
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 6. Write a JavaScript function to find the highest value in an array.
 
@@ -68,7 +76,7 @@
 > 56     
 > 0     
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 7. Write a JavaScript function to find the lowest value in an array.
 
@@ -78,7 +86,7 @@ console.log(min([-12,-34,0,-56,-1]));
 1       
 -56        
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 8. Write a JavaScript function to get the greatest common divisor (gcd) of two integers.
 
@@ -92,7 +100,7 @@ Output :
 1          
 3           
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 9. Write a JavaScript function to find the GCD (greatest common divisor) of more than 2 integers.
@@ -104,7 +112,7 @@ Output :
 3      
 5     
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 10. Write a JavaScript function to get the least common multiple (LCM) of two numbers.
 
@@ -117,7 +125,7 @@ Output :
 15      
 30      
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 11. Write a JavaScript function to get the least common multiple (LCM) of more than 2 integers.
 
@@ -128,7 +136,7 @@ Output :
 25200     
 150     
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 12. Write a JavaScript function to find out if a number is a natural number or not.
 
@@ -146,7 +154,7 @@ true
 false        
 false      
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 13. Write a JavaScript function to test if a number is a power of 2.
 
@@ -159,7 +167,7 @@ true
 false      
 true      
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 14. Write a JavaScript function to round a number to a given decimal places.
 
@@ -172,7 +180,7 @@ Output :
 "12.37"  
 "-10.308"  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 15. Write a JavaScript function to check whether a value is an integer or not.
 
@@ -190,7 +198,7 @@ false
 false   
 true   
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 16. Write a JavaScript function to check to check whether a variable is numeric or not.
 
@@ -209,7 +217,7 @@ false
 true   
 true   
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 17. Write a JavaScript function to calculate the sum of values in an array.
 
@@ -222,7 +230,7 @@ Output :
 -97   
 6   
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 18. Write a JavaScript function to calculate the product of values in an array.
 
@@ -235,7 +243,7 @@ Output :
 -60000  
 6  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 19. Create a Pythagorean function in JavaScript. Go to the editor
 
@@ -247,7 +255,7 @@ Output :
 4.47213595499958  
 5  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 20. Write a JavaScript program to evaluate binomial coefficients.
 
@@ -264,15 +272,15 @@ Output :
 56  
 45  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 21. Write a JavaScript function that Convert an integer into a Roman Numeral in javaScript.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 22. Write a JavaScript function that Convert Roman Numeral to Integer.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 23. Write a JavaScript function to create a UUID identifier.
 
@@ -280,7 +288,7 @@ Output :
 
 > According to Wikipedia - A universally unique identifier (UUID) is an identifier standard used in software construction. A UUID is simply a 128-bit value. The meaning of each bit is defined by any of several variants. For human-readable display, many systems use a canonical format using hexadecimal text with inserted hyphen characters. For example : de305d54-75b4-431b-adb2-eb6b9e546014  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 24. Write a JavaScript function to round a number to a specified number of digits and strip extra zeros (if any).
 
@@ -292,14 +300,14 @@ var a = 5.0001000;
 console.log(result);  
 5.0001  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 25. Write a JavaScript function to make currency math (add, subtract, multiply, division etc.).
 
 > Test Data :  
 n1 = '$40.24', n2 = '$21.57';  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 26. Write a JavaScript function to calculate the nth root of a number.
 
@@ -309,7 +317,7 @@ console.log(nthroot(64, 2));
 console.log(nthroot(64, -2));  
 0.125  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 27. Write a JavaScript function to calculate degrees between 2 points with inverse Y axis.
 
@@ -319,7 +327,7 @@ console.log(pointDirection(1, 0, 12, 0));
 console.log(pointDirection(1, 0, 1, 10));  
 90  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 28. Write a JavaScript function to round up an integer value to the next multiple of 5.
 
@@ -329,7 +337,7 @@ console.log(int_round5(32));
 console.log(int_round5(137));  
 140  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 29. Write a JavaScript function to convert a positive number to negative number.
 
@@ -337,7 +345,7 @@ console.log(int_round5(137));
 console.log(pos_to_neg(15));  
 -15  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 30. Write a JavaScript function to cast a square root of a number to an integer.
 
@@ -345,7 +353,7 @@ console.log(pos_to_neg(15));
 console.log(sqrt_to_int(17));  
 4  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 31. Write a JavaScript function to get the highest number from three different numbers.
 
@@ -353,7 +361,7 @@ console.log(sqrt_to_int(17));
 console.log(highest_of_three(-5, 4, 2));  
 4  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 32. Write a JavaScript function to calculate the percentage (%) of a number.
 
@@ -361,7 +369,7 @@ console.log(highest_of_three(-5, 4, 2));
 console.log(percentage(1000, 47.12));  
 471.2  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 33. Write a JavaScript function to convert degrees to radians.
 
@@ -369,7 +377,7 @@ console.log(percentage(1000, 47.12));
 console.log(degrees_to_radians(45));  
 0.7853981633974483  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 34. Write a JavaScript function to convert radians to degrees.
 
@@ -377,7 +385,7 @@ console.log(degrees_to_radians(45));
 console.log(radians_to_degrees(0.7853981633974483));  
 45  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 35. Write a JavaScript function for the Pythagorean theorem.
@@ -388,7 +396,7 @@ console.log(radians_to_degrees(0.7853981633974483));
 console.log(pythagorean(4, 3));  
 5  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 36. Write a JavaScript function which will return values that are powers of two.
@@ -399,7 +407,7 @@ true
 console.log(isPower_of_two(94));  
 false  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 37. Write a JavaScript function to limit a value inside a certain range.
@@ -414,7 +422,7 @@ console.log(value_limit(-7, 0, 12));
 console.log(value_limit(15, 0, 12));  
 12  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 38. Write a JavaScript function to check if a number is a whole number or has a decimal place.
@@ -427,7 +435,7 @@ console.log(number_test(25.66));
 console.log(number_test(10));  
 "It is a whole number."  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 39. Write a JavaScript function to print an integer with commas as thousands separators.
@@ -440,16 +448,16 @@ console.log(thousands_separators(10000.23));
 console.log(thousands_separators(100000));  
 "100,000"  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 40. Write a JavaScript function to create random background color.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 41. Write a JavaScript function to count the digits of an integer.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 42. Write a JavaScript function to calculate the combination of n and r.
@@ -462,7 +470,7 @@ console.log(combinations(6, 2));
 console.log(combinations(5, 3));  
 10  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 ### 43. Write a JavaScript function to get all prime numbers from 0 to a specified number.
@@ -473,27 +481,27 @@ console.log(primeFactorsTo(5));
 console.log(primeFactorsTo(15));  
 [2, 3, 5, 7, 11, 13]  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 44. Write a JavaScript function to show the first twenty Hamming numbers.
 
 > Hamming Numbers are numbers whose only prime factors are 2, 3 and 5.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 45. Write a JavaScript function to subtract elements from one another in an array.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 46. Write a JavaScript function to calculate the divisor and modulus of two integers.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 47. Write a JavaScript function to calculate the extended Euclid Algorithm or extended GCD.
 
 > In mathematics, the Euclidean algorithm[a], or Euclid's algorithm, is an efficient method for computing the greatest common divisor (GCD) of two numbers, the largest number that divides both of them without leaving a remainder. It is named after the ancient Greek mathematician Euclid, who first described it in Euclid's Elements. It is an example of an algorithm, a step-by-step procedure for performing a calculation according to well-defined rules, and is one of the oldest algorithms in common use. It can be used to reduce fractions to their simplest form, and is a part of many other number-theoretic and cryptographic calculations.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 48. Write a JavaScript function to calculate the falling factorial of a number.
 
@@ -503,30 +511,30 @@ Then x to the (power of) k falling is :
 kth falling factorial power of x  
 This is called the kth falling factorial power of x.  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 49. Write a JavaScript function to calculate Lanczos approximation gamma.
 
 > In mathematics, the Lanczos approximation is a method for computing the Gamma function numerically, published by Cornelius Lanczos in 1964. It is a practical alternative to the more popular Stirling's approximation for calculating the Gamma function with fixed precision.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 50. Write a JavaScript program to add two complex numbers.
 
 > A complex number is a number that can be expressed in the form a + bi, where a and b are real numbers and i is the imaginary unit, that satisfies the equation i2 = −1. In this expression, a is the real part and b is the imaginary part of the complex number.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 51. Write a JavaScript program to subtract two complex numbers.  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 52. Write a JavaScript program to multiply two complex numbers.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 53. Write a JavaScript program to divide two complex numbers.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 [Index](/)

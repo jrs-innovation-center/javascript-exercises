@@ -1,3 +1,11 @@
+---
+title: Javascript Exercises - strings
+description: Practice working with text in JS
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
 ## Strings/Text exercises
 
 ### 1. Write a JavaScript function to check whether an `input` is a string or not.
@@ -8,7 +16,7 @@ true
 console.log(is_string([1, 2, 4, 0]));  
 false  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 2. Write a JavaScript function to check whether a string is blank or not.
 
@@ -18,7 +26,7 @@ console.log(is_Blank('abc'));
 true  
 false  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 3. Write a JavaScript function to split a string and convert it into an array of words.
 
@@ -26,7 +34,7 @@ false
 console.log(string_to_array("Robin Singh"));  
 ["Robin", "Singh"]  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 4. Write a JavaScript function to remove specified number of characters from a string.
 
@@ -34,7 +42,7 @@ console.log(string_to_array("Robin Singh"));
 console.log(truncate_string("Robin Singh",4));  
 "Robi"  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 5. Write a JavaScript function to convert a string in abbreviated form.
 
@@ -42,7 +50,7 @@ console.log(truncate_string("Robin Singh",4));
 console.log(abbrev_name("Robin Singh"));  
 "Robin S."  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 6. Write a JavaScript function to hide email addresses to protect from unauthorized user.
 
@@ -50,7 +58,7 @@ console.log(abbrev_name("Robin Singh"));
 console.log(protect_email("robin_singh@example.com"));  
 "robin...@example.com"  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 7. Write a JavaScript function to parameterize a string.
 
@@ -58,7 +66,7 @@ console.log(protect_email("robin_singh@example.com"));
 console.log(string_parameterize("Robin Singh from USA."));  
 "robin-singh-from-usa"  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 8. Write a JavaScript function to capitalize the first letter of a string.
 
@@ -66,7 +74,7 @@ console.log(string_parameterize("Robin Singh from USA."));
 console.log(capitalize('js string exercises'));  
 "Js string exercises"  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 9. Write a JavaScript function to capitalize the first letter of each word in a string.
 
@@ -74,7 +82,7 @@ console.log(capitalize('js string exercises'));
 console.log(capitalize_Words('js string exercises'));  
 "Js String Exercises"  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 10. Write a JavaScript function that takes a string which has lower and upper case letters as a parameter and converts upper case letters to lower case, and lower case letters to upper case.
 
@@ -82,7 +90,7 @@ console.log(capitalize_Words('js string exercises'));
 console.log(swapcase('AaBbc'));  
 "aAbBC"  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 11. Write a JavaScript function to convert a string into camel case.
 
@@ -94,7 +102,7 @@ console.log(camelize("JavaScriptExercises"));
 "JavaScriptExercises"  
 "JavaScriptExercises"  
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 12. Write a JavaScript function to uncamelize a string.
 
@@ -109,7 +117,7 @@ console.log(uncamelize('helloWorld','_'));
 "hello_world"   
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 13. Write a JavaScript function to concatenates a given string n times (default is 1).
 
@@ -124,7 +132,7 @@ console.log(repeat('Ha!',3));
 "Ha!Ha!Ha!"  
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 14. Write a JavaScript function to insert a string within a string at a particular position (default is 1).
 
@@ -139,7 +147,7 @@ console.log(insert('We are doing some exercises.','JavaScript ',18));
 "We are doing some JavaScript exercises."
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 15. Write a JavaScript function to humanized number (Formats a number to a human-readable string.) with the correct suffix such as 1st, 2nd, 3rd or 4th.
 
@@ -157,7 +165,7 @@ console.log(humanize_format(402));
 "402nd"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 16. Write a JavaScript function to truncates a string if it is longer than the specified number of characters. Truncated strings will end with a translatable ellipsis sequence ("…") (by default) or specified characters.
 
@@ -172,7 +180,7 @@ console.log(text_truncate('We are doing JS string exercises.',15,'!!'))
 "We are doing !!"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 17. Write a JavaScript function to chop a string into chunks of a given length.
 > Test Data :     
@@ -186,7 +194,7 @@ console.log(string_chop('w3resource',3));
 ["w3r", "eso", "urc", "e"]
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 18. Write a JavaScript function to count the occurrence of a substring in a string.
 > Test Data :     
@@ -200,7 +208,7 @@ Output :
 1
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 19. Write a JavaScript function to escape a HTML string.
 
@@ -212,7 +220,7 @@ Output :
 "&lt;a href=&quot;javascript-string-exercise-17.php&quot; target=&quot;_blank&quot;&gt;"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 20. Write a JavaScript function that can pad (left, right) a string to get to a determined length.
 
@@ -226,7 +234,7 @@ Output :
 "12300000"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 21. Write a JavaScript function to repeat a string a specified times.
 
@@ -240,7 +248,7 @@ Output :
 "Error in string or count."
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 22. Write a JavaScript function to get a part of a string after a specified character.
 
@@ -254,7 +262,7 @@ Output :
 "xercises"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 23. Write a JavaScript function to strip leading and trailing spaces from a string.
 
@@ -270,7 +278,7 @@ Output :
 "w3resource"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 24. Write a JavaScript function to truncate a string to a certain number of words.
 
@@ -282,7 +290,7 @@ Output :
 "The quick brown fox"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 25. Write a JavaScript function to alphabetize a given string.
 
@@ -296,7 +304,7 @@ Output :
 "SUadeeinsttt"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 26. Write a JavaScript function to remove the first occurrence of a given 'search string' from a string.
 
@@ -308,7 +316,7 @@ Output :
 "The quick brown fox jumps over lazy dog"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 27. Write a JavaScript function to convert ASCII to Hexadecimal format.
 
@@ -322,7 +330,7 @@ Output :
 "313030"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 28. Write a JavaScript function to convert Hexadecimal to ASCII format.
 
@@ -336,7 +344,7 @@ Output :
 "100"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 29. Write a JavaScript function to find a word within a string.
 
@@ -350,7 +358,7 @@ Output :
 "'aa' was found 2 times."
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 30. Write a JavaScript function check if a string ends with specified suffix.
 
@@ -363,7 +371,7 @@ console.log(string_endsWith('JS PHP PYTHON',''));
 false
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 31. Write a JavaScript function to escapes special characters (&, <, >, ', ") for use in HTML.
 
@@ -376,7 +384,7 @@ console.log(escape_html('3 > 2'));
 "3 &gt; 2"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 32. Write a JavaScript function to remove non-printable ASCII chars.
 
@@ -387,7 +395,7 @@ console.log(remove_non_ascii('äÄçÇéÉêPHP-MySQLöÖÐþúÚ'));
 "PHP-MySQL"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 33. Write a JavaScript function to remove non-word characters.
 
@@ -398,7 +406,7 @@ console.log(remove_non_word('PHP ~!@#$%^&*()+`-={}[]|\\:";\'/?><., MySQL'));
 "PHP - MySQL"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 34. Write a JavaScript function to convert a string to title case.
 
@@ -409,7 +417,7 @@ console.log(sentenceCase('PHP exercises. python exercises.'));
 "Php Exercises. Python Exercises."
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 35. Write a JavaScript function to remove HTML/XML tags from string.
 
@@ -420,7 +428,7 @@ console.log(strip_html_tags('<p><strong><em>PHP Exercises</em></strong></p>'));
 "PHP Exercises"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 36. Write a JavaScript function to create a Zerofilled value with optional +, - sign.
 
@@ -433,7 +441,7 @@ console.log(zeroFill(29, 4));
 "0029"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 37. Write a JavaScript function to test case insensitive (except special Unicode characters) string comparison.
 
@@ -446,7 +454,7 @@ console.log(compare_strings('ABCD', 'Abce'));
 false
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 38. Write a JavaScript function to create a case-insensitive search.
 
@@ -461,7 +469,7 @@ console.log(case_insensitive_search('JavaScript Exercises', 'Exercisess'));
 "Not Matched"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 39. Write a JavaScript function to Uncapitalize  the first character of a string.
 
@@ -472,7 +480,7 @@ console.log(Uncapitalize('Js string exercises'));
 "js string exercises"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 40. Write a JavaScript function to Uncapitalize the first letter of each word of a string.
 
@@ -483,7 +491,7 @@ console.log(unCapitalize_Words('Js String Exercises'));
 "js string exercises"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 41. Write a JavaScript function to capitalize each word in the string.
 
@@ -494,7 +502,7 @@ console.log(capitalizeWords('js string exercises'));
 "JS STRING EXERCISES"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 42. Write a JavaScript function to uncapitalize each word in the string.
 
@@ -505,7 +513,7 @@ console.log(unCapitalizeWords('JS STRING EXERCISES'));
 "js string exercises"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 43. Write a JavaScript function to test whether the character at the provided (character) index is upper case.
 
@@ -516,7 +524,7 @@ console.log(isUpperCaseAt('Js STRING EXERCISES', 1));
 false
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 44. Write a JavaScript function to test whether the character at the provided (character) index is lower case.
 
@@ -527,7 +535,7 @@ console.log(isLowerCaseAt ('Js STRING EXERCISES', 1));
 true
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 45. Write a JavaScript function to get humanized number with the correct suffix such as 1st, 2nd, 3rd or 4th.
 
@@ -542,7 +550,7 @@ console.log(humanize(302));
 "302nd"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 46. Write a JavaScript function to test whether a string starts with a specified string.
 
@@ -553,7 +561,7 @@ console.log(startsWith('js string exercises', 'js'));
 true
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 47. Write a JavaScript function to test whether a string ends with a specified string.
 
@@ -564,7 +572,7 @@ console.log(endsWith('JS string exercises', 'exercises'));
 true
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 48. Write a JavaScript function to get the successor of a string.
 
@@ -589,7 +597,7 @@ console.log(successor('3456'));
 "3457"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 ### 49. Write a JavaScript function to get unique guid (an acronym for 'Globally Unique Identifier’) of the specified length, or 32 by default.
 
@@ -602,6 +610,6 @@ console.log(guid(15));
 "b7pwBqrZwqaDrex"
 ```
 
-<div class="tonic"></div>.
+<div class="runkit"></div>.
 
 [Index](/)

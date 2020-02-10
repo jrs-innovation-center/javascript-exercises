@@ -1,3 +1,11 @@
+---
+title: Javascript Exercises - React
+description: Practice with React
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
 # React Tutorial
 
 This is a practice tutorial, follow it step by step to create a basic react application.

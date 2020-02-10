@@ -1,3 +1,12 @@
+---
+title: Javascript Exercises - Drawing
+description: Practice with JS Drawing
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
+
 # Drawing
 
 Canvas is a JavaScript drawing library, you can use to draw in the browser or
@@ -5,7 +14,7 @@ in NodeJS
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">About JavaScript Canvas</a>
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const Canvas = require('canvas')
 const canvas = new Canvas(200,200)
@@ -21,7 +30,7 @@ canvas.toDataURL()
 You can use the canvas module to draw and just call canvas.toDataURL() to
 output to the screen. (see below)
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 var Canvas = require('canvas')
   , Image = Canvas.Image
@@ -49,7 +58,7 @@ Expected Output :
 
 ![](./rectagular-shape.png)
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const Canvas = require('canvas')
 const canvas = new Canvas(200,200)
@@ -65,7 +74,7 @@ Expected Output :
 ![](./circle.png)
 
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const Canvas = require('canvas')
 const canvas = new Canvas(200,200)
@@ -81,7 +90,7 @@ Expected Output :
 ![](./intersecting-rectangles.png)
 
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const Canvas = require('canvas')
 const canvas = new Canvas(200,200)
@@ -96,7 +105,7 @@ Expected Output :
 
 ![](./right-angled-triangle.png)
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const Canvas = require('canvas')
 const canvas = new Canvas(200,200)
@@ -111,7 +120,7 @@ Expected Output :
 
 ![](./draw-fun.png)
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const Canvas = require('canvas')
 const canvas = new Canvas(200,200)
@@ -126,7 +135,7 @@ Expected Output :
 
 ![](./diagonal-white-to-black-circles.png)
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const Canvas = require('canvas')
 const canvas = new Canvas(200,200)

@@ -1,3 +1,11 @@
+---
+title: Javascript Exercises - DOM Document Object Model
+description: The DOM is the browser api to interact with JS, practice with it, will give you a mental model on how js works in the browser.
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
 ## DOM Exercises
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank">

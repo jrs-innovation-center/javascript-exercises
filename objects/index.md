@@ -1,3 +1,11 @@
+---
+title: Javascript Exercises - objects
+description: objects are collections with labels, you will need to use these often
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
 ## Object Exercises
 
 ### 1. Write a JavaScript program to list the properties of a JavaScript object.
@@ -13,7 +21,7 @@ rollno : 12 };
 
 > Sample Output : name,sclass,rollno
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 2. Write a JavaScript program to delete the rollno property from the following object. Also print the object before or after deleting the property.
 
@@ -26,7 +34,7 @@ sclass : "VI",
 rollno : 12 };
 ```
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 3. Write a JavaScript program to get the length of an JavaScript object.
 
@@ -39,7 +47,7 @@ sclass : "VI",
 rollno : 12 };
 ```
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 4. Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books.
 
@@ -62,14 +70,14 @@ var library = [
    }];
 ```
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 5. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
 
 > Volume of a cylinder : V = πr2h  
 where r is the radius and h is the height of the cylinder.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 6. Write a Bubble Sort algorithm in JavaScript.
 
@@ -77,7 +85,7 @@ where r is the radius and h is the height of the cylinder.
 Sample Data : [6,4,0, 3,-2,1]  
 Expected Output : [-2, 0, 1, 3, 4, 6]  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 7. Write a JavaScript program which returns a subset of a string.
 
@@ -86,7 +94,7 @@ Sample Data : dog
 Expected Output : ["d", "do", "dog", "o", "og", "g"]
 ```
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 8. Write a JavaScript program to create a Clock.
 
@@ -102,13 +110,13 @@ Expected Console Output :
 "14:37:47"
 ```
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 9. Write a JavaScript program to calculate the area and perimeter of a circle.
 
 > Note : Create two methods to calculate the area and perimeter. The radius of the circle will be supplied by the user.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 10. Write a JavaScript program to sort an array of JavaScript objects.
 
@@ -151,7 +159,7 @@ var library = [
 }]
 ```
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 11. Write a JavaScript function to print all the methods in an JavaScript object.
 
@@ -159,34 +167,34 @@ var library = [
 console.log(all_properties(Array));  
 ["length", "name", "arguments", "caller", "prototype", "isArray", "observe", "unobserve"]  
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 12. Write a JavaScript function to parse an URL.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 13. Write a JavaScript function to retrieve all the names of object's own and inherited properties.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 14. Write a JavaScript function to retrieve all the values of an object's properties.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 15. Write a JavaScript function to convert an object into a list of `[key, value]` pairs.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 16. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 17. Write a JavaScript function to check if an object contains given property.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 ### 18. Write a JavaScript function to check whether a given value is a DOM element.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 [Index](/)

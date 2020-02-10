@@ -1,3 +1,11 @@
+---
+title: Javascript Exercises - Map
+description: Practice with JS Map
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
 ## Ramda Exercises
 
 <a href="http://ramdajs.com/docs/" target="_blank">Ramda Documentation</a>
@@ -17,7 +25,7 @@ console.log(__([1, 2, 4, 0]));
 false
 true
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -26,7 +34,7 @@ const R = require('ramda')
 
 ### 2. Use a Ramda function to takes a value and returns the value.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -35,7 +43,7 @@ const R = require('ramda')
 
 ### 3. Use a Ramda function to print the length of an Array
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -46,7 +54,7 @@ const x = [1,2,3,4,5,6]
 
 ### 4. Use Ramda to create an array of numbers counting from 1 to 100.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -57,7 +65,7 @@ const x = [1,2,3,4,5,6]
 
 ### 5. Use Ramda to return true if the following list contains 'blue'
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -68,7 +76,7 @@ const colors = ['red', 'green', 'blue']
 
 ### 6. Use Ramda to convert the following sentence into an array of words.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -81,7 +89,7 @@ const x = 'The brown fox jumps over the white fence.'
 ### 7. Use a Ramda function to transform this array of colors to their hex
 equivalent.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 const convert = require('color-convert')
@@ -98,7 +106,7 @@ console.log(hexColors)
 
 ### 4. Use Ramda filter function to count the the number of buzzwords in the provided text
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 const buzzwords = require('buzzwords') // array of 235 buzzwords
@@ -129,7 +137,7 @@ console.log(__)
 10, 20 - should equal 30     
 300, 500 - should equal 800  
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -142,7 +150,7 @@ const R = require('ramda')
 20, 10 - should equal 10   
 500, 300 - should equal 200  
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -154,7 +162,7 @@ const R = require('ramda')
 > 10 * 10 / 2 - 8   
 should equal 42
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -165,7 +173,7 @@ const R = require('ramda')
 
 > Hint: use the add(x) function to create an add10 function
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -176,7 +184,7 @@ const nums = [1,2,3,4,5,6,7,8,9,10]
 
 ### 12. Write a Ramda program to list the keys of a JavaScript object.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -192,7 +200,7 @@ const student = {
 
 ### 13. Write a Ramda program to list the values of a JavaScript object.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -207,7 +215,7 @@ const student = {
 
 ### 14. Write the Ramda reduce function to sum a list of numbers
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 
@@ -219,7 +227,7 @@ const nums = [1,2,3,5,6,8,10,20]
 
 ### 15. Use filter to only show the buzzwords that contain the letter `g`
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 const buzzwords = require('buzzwords')
@@ -231,7 +239,7 @@ const buzzwords = require('buzzwords')
 ### 16. Use filter to only show the buzzwords that contain the letter `g`
 and map to convert them to a unOrdered list
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 const buzzwords = require('buzzwords')
@@ -243,7 +251,7 @@ const h = require('hyperscript')
 
 ### 17. Create a basic markdownish parser using all ramda functions
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const R = require('ramda')
 const h = require('hyperscript')

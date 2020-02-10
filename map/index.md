@@ -1,3 +1,11 @@
+---
+title: Javascript Exercises - Map
+description: Practice with JS Map
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
 # Map Functions
 
 Mapping is about transforming data from one value to another.
@@ -5,7 +13,7 @@ Mapping is about transforming data from one value to another.
 ### 1. Use the number to words module and map, to transform this
 array of number to array of words
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const converter = require('number-to-words')
 
@@ -18,7 +26,7 @@ const numbers = [1,2,3,4,5,6,7,8,9,10,20,30,99, -2]
 
 ### 2. Use the map function to add 10 to array of numbers
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 
 const numbers = [1,2,3,4,5,6,7,8,9,10,20,30,99, -2]
@@ -31,7 +39,7 @@ an unordered list
 
 [hyperscript docs](https://github.com/dominictarr/hyperscript)
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const h = require('hyperscript')
 
@@ -46,7 +54,7 @@ console.log(h('ul', __ ))
 
 ### 4. Use the map function to convert a list of colors to their rgb code.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const convert = require('color-convert')
 const cssColorList = require('css-color-list')
@@ -59,7 +67,7 @@ const cssColorList = require('css-color-list')
 ### 5. Use the map function transform a list of movies objects from a movie
 db search into a list of movie posters.
 
-<div class="tonic">
+<div class="runkit">
 <pre>
 const h = require('hyperscript')
 

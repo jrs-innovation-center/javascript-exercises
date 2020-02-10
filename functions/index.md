@@ -1,3 +1,12 @@
+---
+title: Javascript Exercises - Functions
+description: Practice with JS Functions
+---
+
+<script src="https://embed.runkit.com"></script>
+<script src="script.js"></script>
+
+
 ## Function Exercises
 
 1. Write a JavaScript function that reverse a number.
@@ -6,13 +15,13 @@
 
 > Expected Output : 34223
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 2. Write a JavaScript function that checks whether a passed string is palindrome or not?
 
 > A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 3. Write a JavaScript function that generates all combinations of a string.
 
@@ -20,7 +29,7 @@
 
 > Expected Output : d,do,dog,o,og,g
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 4. Write a JavaScript function that returns a passed string with letters in alphabetical order.
 
@@ -30,7 +39,7 @@
 
 > Assume punctuation and numbers symbols are not included in the passed string.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 5. Write a JavaScript function that accepts a string as a parameter and converts the first letter of each word of the string in upper case.
 
@@ -38,7 +47,7 @@
 
 > Expected Output : 'The Quick Brown Fox '
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 6. Write a JavaScript function that accepts a string as a parameter and find the longest word within the string.
 
@@ -46,7 +55,7 @@
 
 > Expected Output : 'Development'
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 7. Write a JavaScript function that accepts a string as a parameter and counts the number of vowels within the string.
 
@@ -56,23 +65,23 @@
 
 > Expected Output : 5
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 8. Write a JavaScript function that accepts a number as a parameter and check the number is prime or not.
 
 > Note : A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 9. Write a JavaScript function which accepts an argument and returns the type.
 
 > Note : There are six possible values that typeof returns: object, boolean, function, number, string, and undefined.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 10. Write a JavaScript function which returns the n rows by n columns identity matrix.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 11. Write a JavaScript function which will take an array of numbers stored and find the second lowest and second greatest numbers, respectively.
 
@@ -80,7 +89,7 @@
 
 > Expected Output : 2,4
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 12. Write a JavaScript function which says whether a number is perfect.
 
@@ -88,11 +97,11 @@
 
 > Example : The first perfect number is 6, because 1, 2, and 3 are its proper positive divisors, and 1 + 2 + 3 = 6. Equivalently, the number 6 is equal to half the sum of all its positive divisors: ( 1 + 2 + 3 + 6 ) / 2 = 6. The next perfect number is 28 = 1 + 2 + 4 + 7 + 14. This is followed by the perfect numbers 496 and 8128.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 13. Write a JavaScript function to compute the factors of a positive integer.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 14. Write a JavaScript function to convert an amount to coins.
 
@@ -102,11 +111,11 @@
 
 > Output : 25, 10, 10, 1
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 15. Write a JavaScript function to compute the value of bn where n is the exponent and b is the bases. Accept b and n from the user and display the result.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 
 16. Write a JavaScript function to extract unique characters from a string.
@@ -115,27 +124,27 @@
 
 > Expected Output : "thequickbrownfxjmpsvlazydg"
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 17. Write a JavaScript function to  get the number of occurrences of each letter in specified string.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 18. Write a function for searching JavaScript arrays with a binary search.
 
 > Note : A binary search searches by splitting an array into smaller and smaller chunks until it finds the desired value.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 19. Write a JavaScript function that returns array elements larger than a number.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 20. Write a JavaScript function that generates a string id (specified length) of random characters.
 
 > Sample character list : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 21. Write a JavaScript function to get all possible subset with a fixed length (for example 2) combinations in an array.
 
@@ -143,7 +152,7 @@
 
 > Expected output : [[2, 1], [3, 1], [3, 2], [3, 2, 1]]
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 22. Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string.
 
@@ -151,7 +160,7 @@
 
 > Expected output : 2
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 23. Write a JavaScript function to find the first not repeated character.
 
@@ -159,7 +168,7 @@
 
 > Expected output : 'e'
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 24. Write a JavaScript function to apply Bubble Sort algorithm.
 
@@ -169,7 +178,7 @@
 
 > Expected output : [3223, 546, 455, 345, 234, 213, 122, 98, 84, 64, 23, 12, 9, 4, 1]
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 25. Write a JavaScript function that accept a list of country names as input and returns the longest country name as output.
 
@@ -177,11 +186,11 @@
 
 > Expected output : "United States of America"
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 26. Write a JavaScript function to find longest substring in a given a string without repeating characters.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 27. Write a JavaScript function that returns the longest palindrome in a given string.
 
@@ -189,14 +198,14 @@
 
 > In some applications it may be necessary to return all maximal palindromic substrings (that is, all substrings that are themselves palindromes and cannot be extended to larger palindromic substrings) rather than returning only one substring or returning the maximum length of a palindromic substring.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 28. Write a JavaScript program to pass a 'JavaScript function' as parameter.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 29. Write a JavaScript function to get the function name.
 
-<div class="tonic"></div>
+<div class="runkit"></div>
 
 [Index](/)
